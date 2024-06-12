@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Tiningo",
+    "scheme": "tiningo",
+    "slug": "tiningo",
+    "version": "1.0.5",
+    "owner": "denyav1990",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hst.tiningo"
+      
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hst.tiningo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6312a04e-5856-4113-a59d-ed616492f7f0"
+      }
+    },
+    "plugins": [
+      "expo-apple-authentication"
+    ]
+  }
+}
